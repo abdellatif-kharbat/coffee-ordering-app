@@ -4,7 +4,7 @@
 
 A modern and responsive coffee shop web application designed to provide a smooth, elegant, and engaging online ordering experience.
 
-![Bean & Brew](./public/screenshot.png)
+![Bean & Brew](screenshot.png)
 
 ---
 
