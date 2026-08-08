@@ -1,144 +1,105 @@
-# ☕ AromaCraft — Artisanal Coffee
+# ☕ Bean & Brew
 
-> A modern and responsive coffee ordering web application designed and developed as a practical project during the **Web Design avec l'AI** training at **Orange Digital Center Rabat**.
+### Handcrafted Luxury Coffee
 
-## 📌 About the Project
+A modern and responsive coffee shop web application designed to provide a smooth, elegant, and engaging online ordering experience.
 
-**AromaCraft** is a modern coffee shop web application created to provide a smooth and engaging online ordering experience.
-
-The project allows users to:
-
-* ☕ Discover different coffee and dessert products
-* 🔎 Explore the menu and product details
-* ⭐ View ratings and reviews
-* 🛒 Add products to a shopping cart
-* ⚙️ Customize their orders
-* ➕ Increase or decrease product quantities
-* 💳 Go through a checkout process
-* ✅ View an order confirmation
-* 🌙 Switch between Light and Dark mode
-* 📱 Use the application on desktop and mobile devices
-
-The interface was designed with a strong focus on **UI/UX, responsiveness, accessibility, and visual consistency**.
+![Bean & Brew](./public/screenshot.png)
 
 ---
 
-## 🎓 Training Context
+## 📖 About the Project
 
-This project was developed by **Abdellatif Kharbat** during the:
+**Bean & Brew** is a modern coffee shop website developed as a practical project during the **Web Design avec l'AI** training at **Orange Digital Center Rabat**.
 
-**Web Design avec l'AI** training
-📍 **Orange Digital Center — Rabat, Morocco**
+The project focuses on creating a visually appealing and interactive user experience while applying modern front-end development and UI/UX design principles.
 
-The project was an opportunity to apply modern web design and front-end development concepts while exploring how **Artificial Intelligence can support the design and development workflow**.
-
-### Objectives
-
-The main objectives of the project were to:
-
-* Practice modern web interface design
-* Build a responsive user experience
-* Develop an interactive front-end application
-* Explore AI-assisted web development
-* Apply component-based development with React
-* Improve UI/UX design skills
-* Learn how to structure and present a complete web project
+The website allows users to explore the coffee menu, view product details, customize their orders, manage their shopping cart, and complete the checkout process.
 
 ---
 
-## ✨ Main Features
+## ✨ Features
 
-### 🏠 Home Page
+### 🏠 Modern Landing Page
 
-The landing page introduces the AromaCraft brand and provides quick access to the coffee menu and ordering experience.
+* Elegant coffee-inspired visual identity
+* Responsive hero section
+* Clear calls to action
+* Smooth animations and transitions
 
-### ☕ Interactive Menu
+### ☕ Coffee Menu
 
-Users can browse different categories of drinks and desserts, including:
+Users can explore a variety of products and view:
 
-* Espresso
-* Cappuccino
-* Latte
-* Americano
-* Mocha
-* Cold Coffee
-* Tea
-* Desserts
-
-Each product contains information such as:
-
-* Name
+* Product name
 * Price
-* Rating
-* Reviews
 * Description
 * Ingredients
+* Rating
+* Number of reviews
 * Product image
 
 ### 🛒 Shopping Cart
 
-The cart allows users to:
+The application provides an interactive shopping cart where users can:
 
 * Add products
-* Customize products
-* Change quantities
 * Remove products
+* Increase or decrease quantities
+* Customize products
 * Clear the cart
-* Review their order before checkout
+* Review the order before checkout
 
-The cart state is stored using **localStorage**, allowing the data to persist when the page is refreshed.
+### 💳 Checkout
 
-### 💳 Checkout & Order Confirmation
+A complete front-end ordering flow:
 
-The application includes a complete front-end ordering flow:
+```text
+Menu → Product → Cart → Checkout → Order Confirmation
+```
 
-**Menu → Product → Cart → Checkout → Order Confirmation**
-
-### 🌙 Dark / Light Mode
+### 🌙 Light & Dark Mode
 
 Users can switch between Light and Dark themes.
 
-The selected theme is saved in `localStorage` so it remains available when the user returns to the application.
+The selected theme is stored locally so that the preference remains after refreshing the page.
 
 ### 📱 Responsive Design
 
-The interface is designed to work across:
+The interface is designed to provide a consistent experience across:
 
-* 💻 Desktop
 * 📱 Mobile
 * 📲 Tablet
-
-A responsive navigation menu is also included for smaller screens.
+* 💻 Desktop
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies
 
-| Technology                       | Purpose                         |
-| -------------------------------- | ------------------------------- |
-| **React**                        | Building the user interface     |
-| **TypeScript**                   | Type-safe development           |
-| **Vite**                         | Fast development and build tool |
-| **Tailwind CSS**                 | Responsive and modern styling   |
-| **Lucide React**                 | Interface icons                 |
-| **Motion**                       | UI animations and transitions   |
-| **Three.js / React Three Fiber** | 3D and visual capabilities      |
-| **LocalStorage**                 | Persisting cart and theme data  |
+The project was built using modern front-end technologies:
 
-
-The project dependencies and development scripts are defined in `package.json`.
+* **React**
+* **TypeScript**
+* **Vite**
+* **Tailwind CSS**
+* **Lucide React**
+* **Motion**
+* **LocalStorage**
+* **Git & GitHub**
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-sitewebcaffe/
+bean-and-brew/
 │
-├── assets/
-│   └── ...
+├── public/
+│   └── screenshot.png
 │
 ├── src/
+│   ├── assets/
+│   ├── components/
 │   └── ...
 │
 ├── index.html
@@ -146,12 +107,11 @@ sitewebcaffe/
 ├── package-lock.json
 ├── tsconfig.json
 ├── vite.config.ts
-├── tailwind.config / configuration
 ├── .gitignore
 └── README.md
 ```
 
-The main application logic is implemented with React and includes the different pages, navigation, cart management, theme management, and user interactions.
+> The exact structure may evolve as the project develops.
 
 ---
 
@@ -159,7 +119,7 @@ The main application logic is implemented with React and includes the different 
 
 ### Prerequisites
 
-Make sure you have installed:
+Make sure you have the following installed:
 
 * [Node.js](https://nodejs.org/)
 * npm
@@ -167,13 +127,13 @@ Make sure you have installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/abdellatif-kharbat/sitewebcaffe.git
+git clone https://github.com/abdellatif-kharbat/bean-and-brew.git
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd sitewebcaffe
+cd bean-and-brew
 ```
 
 ### 3. Install dependencies
@@ -182,71 +142,80 @@ cd sitewebcaffe
 npm install
 ```
 
-
 ### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-The application will then be available through the local development URL provided by Vite.
+The application will be available at the local URL provided by Vite.
 
 ---
 
 ## 🏗️ Build for Production
 
-To create a production build:
+Create a production build:
 
 ```bash
 npm run build
 ```
 
-To preview the production build locally:
+Preview the production build locally:
 
 ```bash
 npm run preview
 ```
 
-To check TypeScript:
+---
 
-```bash
-npm run lint
-```
+## 🎨 Design
+
+The visual identity of **Bean & Brew** is inspired by the atmosphere of a luxury artisanal coffee shop.
+
+The design focuses on:
+
+* ☕ Coffee-inspired aesthetics
+* ✨ Elegant visual details
+* 📐 Clean layouts
+* 🎞️ Smooth interactions
+* 📱 Responsive design
+* 🧭 Simple navigation
+* 🛒 User-friendly ordering experience
+
+The goal is to combine **visual quality with usability**.
 
 ---
 
-## 🎨 Design Philosophy
+## 🤖 AI & Web Design
 
-The visual identity of AromaCraft is inspired by the atmosphere of a modern artisanal coffee shop.
+This project was developed as part of the **Web Design avec l'AI** training at **Orange Digital Center Rabat**.
 
-The design uses a warm coffee-inspired palette:
+Artificial Intelligence was explored as a tool to support the web design and development workflow, including:
 
-* Dark Coffee
-* Coffee Brown
-* Light Coffee
-* Cream
-* Beige
+* Generating design ideas
+* Exploring UI concepts
+* Improving layouts
+* Assisting with front-end development
+* Exploring user experience improvements
+* Refining and iterating on interface components
 
-The goal is to create an interface that feels:
-
-**☕ Warm · ✨ Modern · 🎨 Elegant · 📱 Responsive · ⚡ Interactive**
+The generated ideas and code were reviewed, adapted, and integrated as part of the development process.
 
 ---
 
-## 🤖 AI-Assisted Development
+## 🎓 Training
 
-One of the main aspects of this project was exploring the use of **Artificial Intelligence in the web design and development process**.
+### Web Design avec l'AI
 
-AI was used as a development assistant for tasks such as:
+**Orange Digital Center — Rabat, Morocco**
 
-* Generating and improving UI ideas
-* Exploring design concepts
-* Structuring components
-* Developing interface sections
-* Improving user experience
-* Assisting with code generation and refinement
+This project represents a practical application of the concepts explored during the training, including:
 
-The final project was reviewed, adapted, and developed as part of the learning process.
+* UI/UX Design
+* Responsive Web Design
+* Front-End Development
+* AI-assisted development
+* Modern web technologies
 
 ---
 
@@ -254,44 +223,58 @@ The final project was reviewed, adapted, and developed as part of the learning p
 
 ### Abdellatif Kharbat
 
-Computer Engineering Student & Developer
+**Computer Engineering Student & Developer**
 
-📍 Morocco
+🇲🇦 Morocco
 
-**Project developed during the Web Design avec l'AI training at Orange Digital Center Rabat.**
+This project was designed and developed by **Abdellatif Kharbat** during the **Web Design avec l'AI** training at **Orange Digital Center Rabat**.
 
 ---
 
-## 📚 Learning Outcomes
+## 📚 What I Learned
 
-Through this project, I gained practical experience in:
+Through this project, I practiced and improved my skills in:
 
-* React development
+* React
 * TypeScript
-* Responsive web design
-* UI/UX design
-* Component-based architecture
+* Tailwind CSS
+* Responsive Web Design
+* UI/UX Design
+* Component-based development
 * State management
 * LocalStorage
 * Interactive interfaces
-* Front-end development
-* AI-assisted development workflows
 * Git & GitHub
+* AI-assisted web development
+
+---
+
+## 🔮 Future Improvements
+
+Possible future improvements include:
+
+* 🔐 User authentication
+* 🗄️ Backend and database integration
+* 📦 Real order management
+* 💳 Online payment integration
+* 👨‍💼 Admin dashboard
+* 📍 Order tracking
+* 📧 Order confirmation by email
 
 ---
 
 ## 📄 License
 
-This project was created for **educational and learning purposes** as part of the Web Design avec l'AI training.
+This project was developed for **educational purposes** as part of the **Web Design avec l'AI** training.
 
 ---
 
-## ⭐ Acknowledgements
+## 🙏 Acknowledgements
 
-Special thanks to **Orange Digital Center Rabat** and the trainers who contributed to the **Web Design avec l'AI** training and learning experience.
+Special thanks to **Orange Digital Center Rabat** and the trainers for providing the opportunity to learn, experiment, and build this project during the **Web Design avec l'AI** training.
 
 ---
 
-### ☕ AromaCraft
+### ☕ Bean & Brew
 
-**Crafting a better coffee experience through modern web design and AI-assisted development.**
+**Handcrafted Luxury Coffee — Crafted with code and creativity.**
