@@ -1,5 +1,6 @@
 import React from 'react';
 import { X, Coffee, Leaf, Sparkles, Heart } from 'lucide-react';
+import ourCoffeeImg from '../../pexels-cmrcn-30226644.jpg';
 
 interface OurCoffeeModalProps {
   isOpen: boolean;
@@ -40,7 +41,7 @@ export const OurCoffeeModal: React.FC<OurCoffeeModalProps> = ({ isOpen, onClose 
           <div className="space-y-5">
               <div className="rounded-3xl overflow-hidden shadow-2xl shadow-black/40">
               <img
-                src="/pexels-cmrcn-30226644.jpg"
+                src={ourCoffeeImg}
                 alt="Our coffee experience"
                 className="w-full h-[320px] object-cover"
               />

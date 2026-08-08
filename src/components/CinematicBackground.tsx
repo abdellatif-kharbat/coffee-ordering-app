@@ -1,5 +1,6 @@
 import React from 'react';
 import { Theme } from '../types';
+import bgImage from '../../assets/coffee-bg.jpg';
 
 interface CinematicBackgroundProps {
   theme: Theme;
@@ -29,7 +30,7 @@ export const CinematicBackground: React.FC<CinematicBackgroundProps> = ({ theme,
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-out"
         style={{
-          backgroundImage: `url('/assets/coffee-bg.jpg')`,
+          backgroundImage: `url('${bgImage}')`,
           transform: `translate3d(${shiftX}px, ${shiftY}px, 0) scale(1.02)`,
           filter: theme === 'dark' ? 'brightness(0.45) contrast(1.05)' : 'brightness(0.85) contrast(1)'
         }}
