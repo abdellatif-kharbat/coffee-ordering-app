@@ -124,7 +124,7 @@ A responsive navigation menu is also included for smaller screens.
 | **Motion**                       | UI animations and transitions   |
 | **Three.js / React Three Fiber** | 3D and visual capabilities      |
 | **LocalStorage**                 | Persisting cart and theme data  |
-| **Google Gemini API**            | AI-assisted functionality       |
+
 
 The project dependencies and development scripts are defined in `package.json`.
 
@@ -147,7 +147,6 @@ sitewebcaffe/
 ├── tsconfig.json
 ├── vite.config.ts
 ├── tailwind.config / configuration
-├── .env.example
 ├── .gitignore
 └── README.md
 ```
