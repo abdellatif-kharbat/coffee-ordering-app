@@ -30,14 +30,6 @@ export const HeroContent: React.FC<HeroContentProps> = ({
       }}
     >
       <div className="pointer-events-auto space-y-6 sm:space-y-8">
-        {/* Luxury Badge Header */}
-        <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full glass-panel border border-[#D8B58A]/30 text-xs sm:text-sm font-medium tracking-wide text-[#D8B58A] shadow-xl w-fit">
-          <Sparkles className="w-4 h-4 text-[#C58B44] animate-spin" style={{ animationDuration: '6s' }} />
-          <span>Handcrafted Artisan Coffee</span>
-          <span className="w-1.5 h-1.5 rounded-full bg-[#C58B44]" />
-          <span className="text-[#F7F2EC] font-semibold">Casablanca & Rabat</span>
-        </div>
-
         {/* Main Title Heading */}
         <div className="space-y-3">
           <h1
