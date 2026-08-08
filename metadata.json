@@ -1,0 +1,6 @@
+{
+  "name": "Bean & Brew - Luxury Coffee Experience",
+  "description": "A premium Apple Liquid Glass coffee ordering hero section with interactive 3D ceramic coffee cup, rising steam, coffee particles, customization builder, and dark mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
